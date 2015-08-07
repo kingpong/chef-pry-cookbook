@@ -14,3 +14,10 @@ end
 %w{pry pry-nav}.each do |gem|
   chef_gem gem
 end
+
+require 'pry'
+require 'pry-nav'
+
+Pry.commands.alias_command 'c', 'continue'
+Pry.commands.alias_command 's', 'step'
+Pry.commands.alias_command 'n', 'next'
