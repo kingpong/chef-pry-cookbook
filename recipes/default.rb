@@ -11,6 +11,6 @@ node['chef-pry']['dependencies'].each do |pkg|
   package pkg
 end
 
-%w{pry pry-debugger}.each do |gem|
+%w{pry pry-nav}.each do |gem|
   chef_gem gem
 end

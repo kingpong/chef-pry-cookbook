@@ -1,7 +1,7 @@
 Description
 ===========
 
-Installs the pry and pry-debugger gems for use with the Chef Ruby. **NOTE: Chef 11.8 now ships with the pry gem installed.**
+Installs the pry and pry-nav gems for use with the Chef Ruby. **NOTE: Chef 11.8 now ships with the pry gem installed.**
 
 Put this block in your recipe to drop into pry there in your chef-client run:
 
